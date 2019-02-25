@@ -9,7 +9,7 @@ Install:
 1. [Go](https://golang.org/doc/install)
 1. CloudFlare's [SSL ToolKit](https://github.com/cloudflare/cfssl) (`cfssl` and `cfssljson`)
 1. [Consul](https://www.consul.io/docs/install/index.html)
-1. [Vault](https://www.vaultproject.io/docs/install/)
+
 
 Once installed, create a workspace, configure the GOPATH and add the workspace's bin folder to your system path:
 ```
