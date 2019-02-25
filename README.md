@@ -51,3 +51,14 @@ consul-key.pem
 consul.pem
 
 ```
+
+Spin up  Consul on Kubernetes:
+
+```sh
+$ sh create.sh
+```
+
+Forward the port to the local machine for consul:
+```
+$ kubectl -n vault port-forward consul-1 8500:8500
+```
