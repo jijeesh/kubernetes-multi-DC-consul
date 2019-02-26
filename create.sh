@@ -17,7 +17,7 @@ kubectl -n consul create secret generic consul \
 
 echo "Storing the Consul config in a ConfigMap..."
 
-kubectl -n consul create configmap consul --from-file=config.json
+kubectl -n consul create configmap consul --from-file=server.json
 
 
 echo "Creating the Consul Service..."
