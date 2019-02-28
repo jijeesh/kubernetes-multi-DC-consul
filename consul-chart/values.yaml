@@ -53,7 +53,7 @@ server:
   # the attached volume. storageClass is the class of storage which defaults
   # to null (the Kube cluster will pick the default).
   storage: 10Gi
-  storageClass: null
+  storageClass: rook-ceph-block
 
   # connect will enable Connect on all the servers, initializing a CA
   # for Connect-related connections. Other customizations can be done
