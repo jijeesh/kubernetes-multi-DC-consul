@@ -48,5 +48,6 @@ spec:
           hostPort: 8300
         args:
         - /nginx-ingress-controller
+        - --default-backend-service=$(POD_NAMESPACE)/default-http-backend
         - --udp-services-configmap=$(POD_NAMESPACE)/udp-services
         - --tcp-services-configmap=$(POD_NAMESPACE)/tcp-services
