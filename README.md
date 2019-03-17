@@ -1,6 +1,7 @@
 # kubernetes-multi-DC-consul
 Kubernetes multi data centre with consul
 
+## [Enterprise edition moved to private ](https://github.com/jijeesh/ee-kubernetes-multi-DC-consul)
 
 ### Prerequisites
 
